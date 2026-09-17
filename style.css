@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body {
   margin: 0%;
   padding: 0%;
+  max-height: 100vh;
+  font-family: 'Roboto', sans-serif;
 }
 nav {
   box-shadow: 2px 2px rgba(199, 5, 5, 0.2);
   width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 .nav-content {
   max-width: 1200px;
@@ -55,8 +61,12 @@ nav {
   padding: 10px;
 }
 .home-write button {
+  border: none;
+  border-radius: 10px 0px 10px 0px;
   padding: 10px 20px;
   background-color: rgb(20, 124, 142);
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .home-img img {
   width: 220px;
@@ -67,4 +77,48 @@ nav {
   border-radius: 70px;
   outline: 5px solid rgb(96, 88, 88);
   background-color: rgb(15, 15, 14);
+}
+
+/* 
+static done
+relative done
+fixed done
+absolute done
+sticky
+*/
+
+
+/* overflow */
+/* overflow-x  left & right*/
+/* overflow-y  top & bottom*/
+
+/* 
+visible
+hidden
+scroll
+auto
+
+*/
+.container{
+  margin: 40px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: red;
+  overflow: auto;
+}
+
+/* .container p{
+  position: absolute;
+  bottom: 0;
+  right: 5px
+} */
+
+.height-element{
+  height: 1000px;
+}
+.test-index img{
+  position: absolute;
+  z-index: 0;
 }
