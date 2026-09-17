@@ -41,7 +41,7 @@ nav {
 .home-item {
   max-width: 12000px;
   display: flex;
-  padding: 10px;
+  padding: 50px;
   margin:  auto;
   align-items: center;
   justify-content: space-between;
